@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-monitoring-dashboards
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-monitoring-dashboards-feedstock/blob/master/LICENSE.txt)
 
 Summary: Monitoring Dashboards API client library
+
+Development: https://github.com/googleapis/python-monitoring-dashboards
+
+Documentation: https://googleapis.dev/python/monitoring-dashboards/latest/index.html
 
 Monitoring Dashboards API is a Google Cloud service that lets client applications manage dashboard configurations used in the Stackdriver UI.
 See the [quick start guide](https://googleapis.dev/python/monitoring-dashboards/latest/index.html#quick-start).
@@ -109,9 +113,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers

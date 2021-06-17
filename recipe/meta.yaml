@@ -1,6 +1,6 @@
 {% set name = "google-cloud-monitoring-dashboards" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "400d7554a9270dfefaf8b40d0348cd0cdc8f674a92d6747b44c979cce08055d2" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "cdb3ba510fef56a3cf3fb54a404fcbc39c821d6ac031d1673a874fb25a8cc80c" %}
 
 package:
   name: {{ name|lower }}
@@ -17,12 +17,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip >=18.1
   run:
-    - python
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
-    - enum34
+    - python >=3.6
+    - google-api-core-grpc >=1.22.2,<2.0.0dev
+    - proto-plus >=0.4.0
+    - packaging >=14.3
 
 test:
   imports:

@@ -1,6 +1,6 @@
 {% set name = "google-cloud-monitoring-dashboards" %}
-{% set version = "2.1.0" %}
-{% set sha256 = "cdb3ba510fef56a3cf3fb54a404fcbc39c821d6ac031d1673a874fb25a8cc80c" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "c126171e154a984c5c11d3544ef837c74f6447d8fdc3ae5f31dc05e6af2b7751" %}
 
 package:
   name: {{ name|lower }}

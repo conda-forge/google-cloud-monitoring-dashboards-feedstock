@@ -1,13 +1,13 @@
 {% set name = "google-cloud-monitoring-dashboards" %}
-{% set version = "2.15.2" %}
-{% set sha256 = "8fa810a70a15713e5e4113211bd7653bd858abb9eef1fc6813b1cb2dde7569c7" %}
+{% set version = "2.15.3" %}
+{% set sha256 = "c0544b6263844ab2ea9be4ca842e229112d2dad6bb62dd2efd4de22f46ca9a03" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
